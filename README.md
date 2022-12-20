@@ -1,5 +1,5 @@
 # Predicting Flu Vaccine Compliance: National 2009 H1N1 Flu Survey 
-![Covid sticker](Images/covid-sticker.png)
+![Covid sticker](Images/vaccination.png)
 ## Overview
 
 In 2009 the CDC gathered information on vaccine compliance in the U.S. using the National 2009 H1N1 Flu Survey. The **CDC** now wants to pull out **useful features** along with any other insights from this data to inform the creation of **a new survey** about COVID-19 vaccine compliance. 
