@@ -44,7 +44,7 @@ We will take a quick glance at the best and worst feature according to our final
 
 #### Best Performing Feature
 **Best feature graph**
-Here we see a clear correlation - the more concerned the respondents reported feeling, the more likely they were to be vaccinated, and vice versa. 
+Here we see a clear correlation - the more concerned the respondents reported feeling, the more likely they were to report being vaccinated, and vice versa. 
 
 #### Worst Performing Feature
 **worst feature graph**
