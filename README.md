@@ -22,18 +22,22 @@ The initial dataset contained 26,707 responses with 36 questions. Only 27 questi
 
 ### Baseline Model
 ![baseline model](Images/dummy_model.png)
+
 Above, we can see that around 47% of respondents were vaccinated, and around 53% were not. That means that if we were to guess the most common vaccination status (not vaccinated) everytime, we would be right 53% of the time. In order for our advanced models to be able to contribute anything meaningful about the data, we would have to be accurate more than 53% of the time. We decided to use accuracy as our metric as the data is fairly evenly split, and it's more intuitive than F1-scores. 
 
 ### Linear Regression Model
 ![LR model](Images/LR_model.png)
+
 Because our outcome data is binary, we first tried using `LogisticRegression` to model our data.In our final logistic regression model, we got 78.09% accuracy- pretty good. We wanted to try out a few other models to see if we could improve both the accuracy and the balance of the graph features.
 
 ### Random Forests Model
 ![RF model](Images/RF_model.png)
+
 Lets use a `RandomForestClassifier`, an ensemble method which uses an initial weakly fitted model which it builds on. This model type tends to  prevent overfitting and works well with non-linear data. In our final random forest model, we got 77.33% accuracy and the balance of our graph features is more skewed. It seems like our logistic regression model did better than the random forest model we built. We'll try one more model.
 
 ### Final Model:XGBoost Model 
 ![XGBoost model](Images/XGboost_model.png)
+
 XGBoost is an ensemble method that provides some of the best-in-class performance compared to other classification algorithms. In the final XGBoost model, we say 78.82% accuracy on the test data set. This was the highest accuracy we've seen so far. Additionally, the graph features seem much more balanced in this model. With those two metrics in mind, we decided that this is our final model. 
 
 ## Evaluation of Final Model
@@ -44,10 +48,12 @@ We will take a quick glance at the best and worst feature according to our final
 
 #### Best Performing Feature
 ![Best Feature](Images/best_feat.png)
+
 Here we see a clear correlation - the more concerned the respondents reported feeling, the more likely they were to report being vaccinated, and vice versa. 
 
 #### Worst Performing Feature
 ![Worst Feature](Images/worst_feat.png)
+
 Compared to the best performing feature, we can see why our model rated this one so poorly- while we can see a slight difference, it's much harder to find any discernible patterns. 
 
 ## Conclusion
