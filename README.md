@@ -36,7 +36,7 @@ Because our outcome data is binary, we first tried using `LogisticRegression` to
 Lets use a `RandomForestClassifier`, an ensemble method which uses an initial weakly fitted model which it builds on. This model type tends to  prevent overfitting and works well with non-linear data. In our final random forest model, we got 77.33% accuracy and the balance of our graph features is more skewed. It seems like our logistic regression model did better than the random forest model we built. We'll try one more model.
 
 ### Final Model:XGBoost Model 
-![XGBoost model](Images/XGboost_model.png)
+![XGBoost model](Images/XGBoost_model.png)
 
 XGBoost is an ensemble method that provides some of the best-in-class performance compared to other classification algorithms. In the final XGBoost model, we say 78.82% accuracy on the test data set. This was the highest accuracy we've seen so far. Additionally, the graph features seem much more balanced in this model. With those two metrics in mind, we decided that this is our final model. 
 
