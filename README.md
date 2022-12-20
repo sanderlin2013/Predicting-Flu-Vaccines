@@ -1,5 +1,5 @@
 # Predicting Flu Vaccine Compliance: National 2009 H1N1 Flu Survey 
-**PICTURE**
+![Covid sticker](Images/covid-sticker.png)
 ## Overview
 
 In 2009 the CDC gathered information on vaccine compliance in the U.S. using the National 2009 H1N1 Flu Survey. The **CDC** now wants to pull out **useful features** along with any other insights from this data to inform the creation of **a new survey** about COVID-19 vaccine compliance. 
@@ -51,11 +51,32 @@ Here we see a clear correlation - the more concerned the respondents reported fe
 Compared to the best performing feature, we can see why our model rated this one so poorly- while we can see a slight difference, it's much harder to find any discernible patterns. 
 
 ## Conclusion
+
+### Reccomendations
 Based on our final model, we see that questions about peoples **opinions** about vaccines was highly correlated to their **vaccination status**. As such, my first recommendation would be to include these types of questions (e.g. "How likely are you to get sick if you don't get the vaccine?", "How effective are vaccines, in your opinion?", "How concerned are you about getting sick from the vaccine?") in the survey. 
 
 The second recommendation would be to ask for the respondents **age**, if their **health insurance** covers the vaccine (as everyone is now supposed to have health insurance in the U.S., unlike in 2009) and if their primary **doctor spoke to them** about getting the COVID-19 vaccine, as these questions were also shown in the model as relevant to vaccine compliance. 
 
 The final recommendation is to try and **limit the number of questions included in the survey**, in order to encourage and enable complete survey responses. This dataset included lots of missing data. By shortening the questionnaire, response compliance may be increased. 
 
-Additionally, We'd like to suggest that the poor performance of the behavioral questions (e.g. "Have you avoided large gatherings? "Have you worn a mask?") in the final model was perhaps due to the lack of public health messaging around these behaviors during the H1N1 outbreak. These types of behavioral recommendations were much more prevalent throughout the COVID-19 pandemic. Intuitively it  makes sense that today self-reports of these behaviors are likely to follow the stated opinions of respondents about vaccines (if someone says they are worried about getting sick, then it is likely they will say they wear a mask and have been vaccinated) but this assumption should be further investigated.
+Additionally, We'd like to suggest that the poor performance of the behavioral questions (e.g. "Have you avoided large gatherings? "Have you worn a mask?") in the final model was perhaps due to the lack of public health messaging around these behaviors during the H1N1 outbreak. These types of behavioral recommendations were much more prevalent throughout the COVID-19 pandemic. Intuitively it makes sense that self-reports of these behaviors after COVID-19 are likely to follow the stated opinions of respondents about vaccines (if someone says they are worried about getting sick, then it is likely they will say they wear a mask and have been vaccinated) but this assumption should be further investigated.
 
+### Possible Next Steps
+- Check if KNN is a better way to handle the missing data.
+
+- Look into behavioral questions feature importance in a post- COVID world.
+
+- Create and test short new COVID-19 survey!
+
+## Repository Structure
+
+```
+├── .ipynb_checkpoints/
+├── Images
+├── zipped_data
+├── Movie_Data_Analysis.ipynb
+├── README.md
+├── notebook.pdf
+├── presentation.pdf
+└── requirements.txt
+```
