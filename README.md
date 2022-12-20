@@ -15,6 +15,9 @@ The data was collected via telephone surveys, a commonly used polling method whi
 #### Why We Used This Dataset
 Despite the above limitations, the National 2009 H1N1 Flu Survey contains a large number of responses, takes into account a large number of features relevant to seasonal flu vaccine compliance, and is a relatively recent dataset. For all these reasons, we decided to use this dataset to create our predictive model. 
 #### Dataset Size 
-The initial dataset contained was 26,707 responses with 36 questions. Only 27 questions were included in the analysis, as questions about the H1N1 vaccine or with responses containing identifying information were excluded. 
+The initial dataset contained was 26,707 responses with 36 questions. Only 27 questions were included in the analysis, as questions about the H1N1 vaccine or with responses containing identifying information were excluded. I chose to focus soley on seasonal flu vaccine compliance, as that the seasonal flu is a routine vaccine much like present-day COVID-19 vaccines
+
+## Modeling
+
 
 
