@@ -47,12 +47,12 @@ When we ran our holdout validation set, the XGBoost model gave us 78.47% accurac
 We will take a quick glance at the best and worst feature according to our final model, in order to get a visual understanding of why some features performed better than others. 
 
 #### Best Performing Feature
-![Best Feature](Images/best_feat.png)
+![Best Feature](Images/best_feat_bar.png)
 
 Here we see a clear correlation - the more concerned the respondents reported feeling, the more likely they were to report being vaccinated, and vice versa. 
 
 #### Worst Performing Feature
-![Worst Feature](Images/worst_feat.png)
+![Worst Feature](Images/worst_feat_bar.png)
 
 Compared to the best performing feature, we can see why our model rated this one so poorly- while we can see a slight difference, it's much harder to find any discernible patterns. 
 
@@ -72,6 +72,8 @@ Additionally, We'd like to suggest that the poor performance of the behavioral q
 - Check if KNN is a better way to handle the missing data.
 
 - Look into behavioral questions feature importance in a post- COVID world.
+
+- Keep an eye out for changes to COVID-19 vaccine accessibility (health insurance).
 
 - Create and test the new COVID-19 survey!
 
