@@ -47,12 +47,12 @@ When we ran our holdout validation set, the XGBoost model gave us 78.47% accurac
 We will take a quick glance at the best and worst feature according to our final model, in order to get a visual understanding of why some features performed better than others. 
 
 #### Best Performing Feature
-![Best Feature](Images/best_feat_bar.png)
+![Best Feature](Images/best_feat_min.png)
 
 Here we see a clear correlation - the more concerned the respondents reported feeling, the more likely they were to report being vaccinated, and vice versa. 
 
 #### Worst Performing Feature
-![Worst Feature](Images/worst_feat_bar.png)
+![Worst Feature](Images/worst_feat_min.png)
 
 Compared to the best performing feature, we can see why our model rated this one so poorly- while we can see a slight difference, it's much harder to find any discernible patterns. 
 
