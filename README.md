@@ -62,7 +62,7 @@ Compared to the best performing feature, we can see why our model rated this one
 ### Reccomendations
 Based on our final model, we see that questions about peoples **opinions** about vaccines were highly correlated to their **vaccination status**. As such, the first recommendation would be to include these types of questions (e.g. "How likely are you to get sick if you don't get the vaccine?", "How effective are vaccines, in your opinion?", "How concerned are you about getting sick from the vaccine?") in the survey. 
 
-The second recommendation would be to ask for the respondents **age**, if their **health insurance** covers the vaccine (as everyone is now supposed to have health insurance in the U.S., unlike in 2009) and if their primary **doctor spoke to them** about getting the COVID-19 vaccine, as these questions were also shown in the model as relevant to vaccine compliance. 
+The second recommendation would be to ask for the respondents **age**, if their **health insurance** covers the vaccine (as coverage rates [may change in 2023](https://www.cbpp.org/research/health/coverage-for-covid-19-testing-vaccinations-and-treatment) and if their primary **doctor spoke to them** about getting the COVID-19 vaccine, as these questions were also shown in the model as relevant to vaccine compliance. 
 
 The final recommendation is to try and **limit the number of questions included in the survey**, in order to encourage and enable complete survey responses. This dataset included lots of missing data. By shortening the questionnaire, response compliance may be increased. 
 
