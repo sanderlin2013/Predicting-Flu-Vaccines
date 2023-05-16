@@ -79,7 +79,7 @@ Additionally, We'd like to suggest that the poor performance of the behavioral q
 - Create and test the new COVID-19 survey!
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/sanderlin2013/Predicting-Flu-Vaccines/blob/main/Predicting%20Flu%20Vaccine%20Compliance.ipynb) or review this [presentation](https://github.com/sanderlin2013/Predicting-Flu-Vaccines/blob/main/presentation.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/sanderlin2013/Predicting-Flu-Vaccines/blob/main/notebook.ipynb) or review this [presentation](https://github.com/sanderlin2013/Predicting-Flu-Vaccines/blob/main/presentation.pdf).
 
 For additional info, contact Rachel Sanderlin at [sanderlin2013@gmail.com](mailto:sanderlin2013@gmail.com)
 
